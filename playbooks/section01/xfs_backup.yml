@@ -1,6 +1,6 @@
 ---
 - name: XFS Backup and Restore Playbook
-  hosts: all
+  hosts: node01
   become: true
   vars:
     xfs_mount_point: "/"    # The XFS filesystem mount point to back up
